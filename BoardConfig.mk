@@ -71,7 +71,7 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/
 # Flags
 COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
 
-# Revcovery
+# Recovery
 BOARD_HAS_NO_SELECT_BUTTON  := true
 BOARD_SUPPRESS_EMMC_WIPE    := true
 BOARD_HAS_LARGE_FILESYSTEM  := true
